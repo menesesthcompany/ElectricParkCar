@@ -1,0 +1,142 @@
+/* Configurações globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5faff; /* Azul claro suave */
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #00796b; /* Verde menta */
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff; /* Branco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo h1 {
+    color: #00796b; /* Verde menta */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navigation a {
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eaf7f7; /* Fundo verde claro */
+  }
+  
+  .map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .map-placeholder {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    background-color: #cce7e7; /* Azul esverdeado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .reserve-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* Branco */
+    background-color: #00796b; /* Verde menta */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #00574b; /* Verde mais escuro */
+  }
+  
+  /* Impact Section */
+  .impact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5faff; /* Azul claro */
+  }
+  
+  .impact-section .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .stat {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* Branco */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .stat h3 {
+    font-size: 18px;
+    color: #00796b; /* Verde menta */
+  }
+  
+  .stat p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #00796b; /* Verde menta */
+    color: #ffffff; /* Branco */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer .social-links a {
+    margin: 0 10px;
+    color: #ffffff; /* Branco */
+    font-size: 14px;
+  }
+  
+  .footer .social-links a:hover {
+    color: #cce7e7; /* Azul esverdeado claro */
+  }
+  

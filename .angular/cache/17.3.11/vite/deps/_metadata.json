@@ -1,0 +1,34 @@
+{
+  "hash": "c9057b74",
+  "configHash": "9f5545e5",
+  "lockfileHash": "18e6cd65",
+  "browserHash": "7b5c631d",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "2f46e1f6",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "8f09d58d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "51d09b22",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-FPFBRY45": {
+      "file": "chunk-FPFBRY45.js"
+    },
+    "chunk-NMHESRE7": {
+      "file": "chunk-NMHESRE7.js"
+    }
+  }
+}
