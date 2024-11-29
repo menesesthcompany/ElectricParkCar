@@ -1,0 +1,59 @@
+<div class="login-container">
+    <div class="login-card">
+      <div class="welcome-section">
+        <h1>Bem-vindo de volta!</h1>
+        <p>Digite suas credenciais para acessar sua conta</p>
+      </div>
+      <form (ngSubmit)="onLogin()">
+        <!-- Campo de e-mail -->
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            [(ngModel)]="email"
+            placeholder="Digite seu e-mail"
+            name="email"
+          />
+        </div>
+  
+        <!-- Campo de senha com visibilidade alternável -->
+        <div class="form-group password-container">
+          <label for="password">Senha</label>
+          <input
+            [type]="passwordVisible ? 'text' : 'password'"
+            id="password"
+            [(ngModel)]="password"
+            placeholder="Digite sua senha"
+            name="password"
+          />
+          <button
+            type="button"
+            class="toggle-password"
+            (click)="togglePasswordVisibility()"
+            aria-label="Toggle password visibility"
+          >
+
+            <i
+              class="fas"
+              [ngClass]="passwordVisible ? 'fa-eye-slash' : 'fa-eye'"
+            ></i>
+          </button>
+        </div>
+  
+        <!-- Botão de envio -->
+        <button type="submit" class="login-button">Entrar</button>
+      </form>
+      <div class="links">
+        <a href="#">Esqueceu sua senha?</a>
+        <a href="#">Criar conta</a>
+      </div>
+    </div>
+  
+    <div class="info-section">
+      <h2>Por que escolher nossa plataforma?</h2>
+      <p>Gestão eficiente, design elegante e a experiência perfeita para o seu dia a dia.</p>
+      <img id="car" src="assets/images/car.png">
+    </div>
+  </div>
+  

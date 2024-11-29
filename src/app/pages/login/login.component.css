@@ -1,0 +1,192 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centralização do container */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    background: linear-gradient(to bottom right, #e0f7fa, #e8f5e9);
+    margin: 0; /* Garantir que o body não tenha margem */
+}
+
+/* Container principal */
+.login-container {
+    font-family: Libre Franklin;
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: auto; /* Centraliza dentro da tela */
+    position: absolute;
+    top: 50%;        /* Posiciona 50% do topo da tela */
+    left: 50%;       /* Posiciona 50% da largura da tela */
+    transform: translate(-50%, -50%); /* Ajusta para centralizar exatamente */
+}
+
+/* Card de login */
+.login-card {
+    
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0f7fa; /* Fundo azul claro */
+}
+
+/* Seção de boas-vindas */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 {
+    color: #004d40; /* Verde escuro */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    color: #00695c; /* Verde médio */
+    font-size: 1rem;
+}
+
+/* Estilo do formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #004d40; /* Verde escuro */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #004d40;
+    border-radius: 8px;
+    background: #ffffff;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #00695c; /* Verde médio */
+}
+
+/* Botão de login */
+.login-button {
+    background: #004d40; /* Verde escuro */
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-button:hover {
+    background: #00695c; /* Verde médio */
+}
+
+/* Links extras */
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links a {
+    font-size: 0.9rem;
+    color: #004d40;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 50px; /* Espaço suficiente para o botão */
+}
+
+.toggle-password {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #004d40;
+    font-size: 1rem;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.toggle-password:hover {
+    color: #00695c;
+}
+
+/* Animação suave no ícone */
+.toggle-password i {
+    transition: transform 0.3s ease, opacity 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.toggle-password i.fa-eye {
+    transform: scale(1); /* Ícone ativo no estado padrão */
+    opacity: 1;
+}
+
+.toggle-password i.fa-eye-slash {
+    transform: scale(0.9); /* Ícone encolhe ao alternar */
+    opacity: 0.8; /* Suaviza a transição */
+}
+
+/* Seção informativa */
+.info-section {
+    flex: 1;
+    padding: 40px 30px;
+    background: #e8f5e9; /* Verde claro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 1.8rem;
+    color: #004d40; /* Verde escuro */
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+#car {
+    width: 80%;
+    height: auto;
+}
